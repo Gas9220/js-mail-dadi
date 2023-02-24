@@ -8,6 +8,7 @@ const playerInputElement = document.getElementById('player-input');
 const roundLabelElement = document.getElementById('round-label');
 const playerScoreLabel = document.getElementById('player-score-label');
 const cpuScoreLabel = document.getElementById('cpu-score-label');
+const resultLabel = document.getElementById('result')
 
 // Tengo traccia delle vincite di ciascun giocatore e del round
 let playerScore = 0;
@@ -55,6 +56,7 @@ confirmBtn.addEventListener('click',
         }
 
         // Aggiorno i dati
+        resultLabel.innerHTML = result
         roundLabelElement.innerHTML = round;
         playerScoreLabel.innerHTML = playerScore;
         cpuScoreLabel.innerHTML = cpuScore;
