@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-image: url('https://img.wattpad.com/0bcd371508c642b7257c9eba5a299cc4a5eb60b8/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f5869545434556634462d477568513d3d2d3837393437313336372e313630633233613333373830643263383436373933363436353930382e6a7067?s=fit&w=720&h=720');
+    height: 4.375rem;
+}
+
+main {
+    background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/71J6YPxNauhFABbjHpGluJ/631bd6980b0a430d5b476ef331abb2b5/release_1_hogwarts.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 4.375rem);
+}
+
+#logo {
+    height: 3.125rem;
+}
