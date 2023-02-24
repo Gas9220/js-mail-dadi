@@ -56,7 +56,7 @@ searchBtn.addEventListener('click',
                 message.innerHTML = "You are already a subscriber!";
                 message.style.color = 'red'
                 break;
-            } else if (i === newsletterSubscribers.length - 1) { // Se siamo all'ultima iterazione del ciclo e l'email non è stata trovata, la aggiungiamo all'array
+            } else if (i === newsletterSubscribers.length - 1 && emailFieldValue !== "") { // Se siamo all'ultima iterazione del ciclo e l'email non è stata trovata, la aggiungiamo all'array
 
                 message.innerHTML = "Thank for subscribe to our newsletter!";
                 newsletterSubscribers.push(emailFieldValue);
