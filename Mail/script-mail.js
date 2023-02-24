@@ -8,8 +8,8 @@ const newsletterBox = document.getElementById('newsletter-box')
 const subscribersList = document.getElementById('our-subscribers')
 
 // Creo due array per genererare in modo random indirizi email fittizzi
-const providers = ['@icloud.com', '@outlook.com', '@gmail.com', '@yahoo.com', '@libero.it'];
-const names = ['Gaspare', 'Simona', 'Gaetano', 'Daniela', 'Gabriele', 'Veronica', 'Tommaso', 'Chiara', 'Francesco', 'Carla', 'Giovanni', 'Adele'];
+const providers = ['@icloud.com', '@outlook.com', '@gmail.com', '@yahoo.com', '@libero.it', '@hotmail.it', '@tim.it'];
+const names = ['Gaspare', 'Simona', 'Gaetano', 'Daniela', 'Gabriele', 'Veronica', 'Tommaso', 'Chiara', 'Francesco', 'Carla', 'Giovanni', 'Adele', 'Luca', 'Anna', 'Vincenzo', 'Serena'];
 
 // Array che conterray le email generate in modo casuale
 const newsletterSubscribers = [];
