@@ -19,3 +19,8 @@ main {
 #logo {
     height: 3.125rem;
 }
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
